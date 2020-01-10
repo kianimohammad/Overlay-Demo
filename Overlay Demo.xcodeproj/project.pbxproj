@@ -13,6 +13,8 @@
 		1CB7754B23C912BB00F8D21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7754923C912BB00F8D21F /* Main.storyboard */; };
 		1CB7754D23C912BD00F8D21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7754C23C912BD00F8D21F /* Assets.xcassets */; };
 		1CB7755023C912BD00F8D21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7754E23C912BD00F8D21F /* LaunchScreen.storyboard */; };
+		1CB7755823C9133A00F8D21F /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB7755723C9133A00F8D21F /* Places.plist */; };
+		1CB7755A23C914F000F8D21F /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7755923C914F000F8D21F /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1CB7754C23C912BD00F8D21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CB7754F23C912BD00F8D21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CB7755123C912BD00F8D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB7755723C9133A00F8D21F /* Places.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
+		1CB7755923C914F000F8D21F /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1CB7754C23C912BD00F8D21F /* Assets.xcassets */,
 				1CB7754E23C912BD00F8D21F /* LaunchScreen.storyboard */,
 				1CB7755123C912BD00F8D21F /* Info.plist */,
+				1CB7755723C9133A00F8D21F /* Places.plist */,
+				1CB7755923C914F000F8D21F /* Place.swift */,
 			);
 			path = "Overlay Demo";
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				1CB7755023C912BD00F8D21F /* LaunchScreen.storyboard in Resources */,
 				1CB7754D23C912BD00F8D21F /* Assets.xcassets in Resources */,
+				1CB7755823C9133A00F8D21F /* Places.plist in Resources */,
 				1CB7754B23C912BB00F8D21F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				1CB7754823C912BB00F8D21F /* ViewController.swift in Sources */,
 				1CB7754423C912BB00F8D21F /* AppDelegate.swift in Sources */,
 				1CB7754623C912BB00F8D21F /* SceneDelegate.swift in Sources */,
+				1CB7755A23C914F000F8D21F /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
